@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Data & weights（数据集和权重不进仓库）
+train_images/
+image_cache/
+dataset/
+*.zip
+*.pt
+*.pth
+*.onnx
+
+# Logs
+*.log
+_upload.log
